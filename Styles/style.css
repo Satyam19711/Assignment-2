@@ -1,0 +1,111 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+body{
+    height: 100vh;
+    width: 100wh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+nav{
+    display: flex;
+    /* align-self: center; */
+    width: 100%;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 10px;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: rgb(170, 255, 0);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.logo{
+    width:100px;
+}
+.bothheader{
+    margin-right: 900px;
+    display: flex;
+    gap: 30px;
+
+}
+button{
+    margin-right: 5px;
+    padding: 14px 18px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(24, 24, 151);
+    border-radius: 10px;
+    padding-right: 15px;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    font-weight:700 ;
+    padding: 15px 19px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+section main div{
+    justify-content: space-around;
+    float: right;
+    padding-right: 90px;
+    margin-left: 18px;
+}
+
+.mainright{
+    width: 800px;
+    /* padding:10px; */
+    float: left;
+    padding-left: 40px;
+    margin-left: 70px;
+
+}
+
+section main div h1{
+    font-size: 80px;
+}
+
+span{
+    color: rgb(52, 52, 169);
+}
+    
+
+
